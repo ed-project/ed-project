@@ -1,0 +1,162 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans";
+* {
+    outline: none!important
+}
+
+body {
+    font-family: PT Sans
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.width {
+    display: block;
+    width: 100%
+}
+
+.btn {
+    border-radius: 5px
+}
+
+#login-box {
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.panel {
+    border-radius: 5px
+}
+
+.well {
+    border-radius: 5px
+}
+
+.tpreview {
+    max-width: 200px
+}
+
+#loadpreview img {
+    max-width: 200px!important
+}
+
+#loadpreview {
+    border: #ccc 1px dashed;
+    min-width: 100px;
+    min-height: 100px;
+    width: auto;
+    display: table
+}
+
+.imgadapt {
+    width: 100%
+}
+
+.navbar {
+	background: #e0bf47;
+	background: -moz-linear-gradient(left, #e0bf47 2%, #17aaa1 100%);
+	background: -webkit-linear-gradient(left, #e0bf47 2%,#17aaa1 100%);
+	background: linear-gradient(to right, #e0bf47 2%,#17aaa1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0bf47', endColorstr='#17aaa1',GradientType=1 );
+}
+
+.ace-nav li {
+    border: none
+}
+
+.ace-nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: none!important
+}
+
+.ace-nav li a:hover {
+    opacity: .8
+}
+
+.menu-toggler {
+    border-radius: 5px;
+    background: #babf2a!important
+}
+
+.siteicon {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.btnpanel button {
+    margin-right: 5px;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.comment-wrapper .panel-body {
+    max-height: 650px;
+    overflow: auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom: 1px dashed #efefef;
+    margin-bottom: 25px;
+}
+
+.imgpreview {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fileblock {
+    height: 140px;
+    position: relative
+}
+
+.fileblock .filename {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.loadfile {
+    margin-bottom: 5px;
+}
+
+.dialog {
+    display: none
+}
+
+.deletebtn {
+    border-radius: 360px !important;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px;
+    margin: 0px;
+    border: none
+}
